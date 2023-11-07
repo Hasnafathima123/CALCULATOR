@@ -49,7 +49,7 @@ def equal():
         txt.delete(0,END)
         txt.insert(0,int(old_value)*int(new_value)) 
 def clr():
-    txt.delete(0,END)   
+    txt.Delete(0,END)   
         
 root=Tk()
 root.geometry("200x400")
